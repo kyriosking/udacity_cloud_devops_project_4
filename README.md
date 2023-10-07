@@ -22,6 +22,8 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
+## System Requirements:
+- 2 VCPU and upper 20Gb memory
 
 ## Setup the Environment
 
@@ -44,7 +46,13 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+1. Setup and Configure Docker locally: Please point into the main folder and run following commands by order
+* `./run_docker.sh`
+* `./upload_docker.sh`
+2. Setup and Configure Kubernetes locally: First, we must have `minikube` installed
+* `minikube start`
+* To view minikube status, run `minikube status`
+3. Run via kubectl:
+* Run `./run_kubernetes.sh`
+* Wait for a few minutes to initialize
+* To check the initializing process, run `kubectl get pods`
