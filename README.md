@@ -1,4 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/luthevy/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/luthevy/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/kyriosking/udacity_cloud_devops_project_4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/kyriosking/udacity_cloud_devops_project_4/tree/main)
 
 ## Project Overview
 
